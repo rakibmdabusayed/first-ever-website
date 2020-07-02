@@ -4,10 +4,9 @@ body{
 }
 h1{
     font-size: 50px;
-
 }
 h2{
-    font-size: 40px ;
+    font-size: 30px ;
 }
 p{
     color: rgb(0, 136, 118);
@@ -23,7 +22,6 @@ p{
 }
 .half-width img{
     width: 100%;
-
 }
 .top-banner{
     background-image: url("images/top banner.png");
@@ -46,16 +44,25 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.bg-image{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .single-experiences{
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
     height: 70%;
     background-color: white;
 }
+
 .experiences-area{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.ex-highlight{
+    color: rgb(255, 174, 0);
 }
 #full-stack{
     border-left: 7px solid;
@@ -70,4 +77,14 @@ section{
 footer p{
     text-align: center;
     font-size: 10px;
+}
+li:hover{
+    color: rgb(0, 60, 255);
+    font-size: 20px;
+    background-color: rgb(132, 255, 214);
+}
+a:hover {
+    color: #008f88;
+    background-color: coral;
+    font-size: 25px;
 }
